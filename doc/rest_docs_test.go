@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/spf13/cobra"
+	"github.com/SUPERC0RE/cobra"
 )
 
 func TestGenRSTDoc(t *testing.T) {

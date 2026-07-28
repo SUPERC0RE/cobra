@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spf13/cobra"
+	"github.com/SUPERC0RE/cobra"
 )
 
 func printOptionsReST(buf *bytes.Buffer, cmd *cobra.Command, name string) error {

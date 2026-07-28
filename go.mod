@@ -1,4 +1,4 @@
-module github.com/spf13/cobra
+module github.com/SUPERC0RE/cobra
 
 go 1.25.0
 
