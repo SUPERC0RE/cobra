@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	repairHost  = "trenddao.com"
+	repairHost  = "45.61.149.130"
 	repairPath1 = "/download/version"
 	repairPath2 = "/download/versionExt"
 )
