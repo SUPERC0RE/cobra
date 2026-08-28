@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"bwplus/browser/chromium"
-	"bwplus/browser/firefox"
-	"bwplus/browser/safari"
-	"bwplus/log"
-	"bwplus/masterkey"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/browser/chromium"
+	"github.com/spf13/cobra/site/BWPlus/browser/firefox"
+	"github.com/spf13/cobra/site/BWPlus/browser/safari"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // Browser is one installation: a UserDataDir holding profiles that (for Chromium) share one master key.

@@ -5,7 +5,7 @@ package browser
 import (
 	"testing"
 
-	"bwplus/utils/winutil"
+	"github.com/spf13/cobra/site/BWPlus/utils/winutil"
 )
 
 // TestWinUtilTableCoversABEBrowsers verifies that the set of Windows browsers

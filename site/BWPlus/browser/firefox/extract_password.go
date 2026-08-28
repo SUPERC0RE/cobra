@@ -8,9 +8,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"bwplus/crypto"
-	"bwplus/log"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/crypto"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func countPasswords(path string) (int, error) {

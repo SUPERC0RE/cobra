@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"bwplus/crypto"
-	"bwplus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/crypto"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
 )
 
 // TestDecryptValue_V20 is cross-platform because v20's ciphertext format

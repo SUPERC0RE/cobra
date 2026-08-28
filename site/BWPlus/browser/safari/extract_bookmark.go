@@ -7,7 +7,7 @@ import (
 
 	"github.com/moond4rk/plist"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // safariBookmark mirrors the plist structure of Safari's Bookmarks.plist.

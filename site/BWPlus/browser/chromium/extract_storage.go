@@ -10,7 +10,7 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // Chromium localStorage LevelDB key prefixes and string format bytes.

@@ -10,7 +10,7 @@ import (
 
 	"github.com/moond4rk/plist"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // Safari keeps extensions in two sibling plists under the container's Safari dir:

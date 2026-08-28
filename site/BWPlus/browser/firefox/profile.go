@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"bwplus/filemanager"
-	"bwplus/log"
-	"bwplus/types"
-	"bwplus/utils/fileutil"
+	"github.com/spf13/cobra/site/BWPlus/filemanager"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/spf13/cobra/site/BWPlus/utils/fileutil"
 )
 
 // profile is one Firefox profile 鈥?the leaf extraction unit. Unlike Chromium,

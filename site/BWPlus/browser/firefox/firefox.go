@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // Browser is one Firefox installation: the Profiles directory holding one or

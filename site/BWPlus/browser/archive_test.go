@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"bwplus/browser/chromium"
-	"bwplus/types"
-	"bwplus/utils/fileutil"
+	"github.com/spf13/cobra/site/BWPlus/browser/chromium"
+	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/spf13/cobra/site/BWPlus/utils/fileutil"
 )
 
 // TestWriteArchive_RoundTrip exercises the archive path: ArchiveSources -> WriteArchive (stage+zip)

@@ -3,7 +3,7 @@
 package crypto
 
 import (
-	"bwplus/utils/winapi"
+	"github.com/spf13/cobra/site/BWPlus/utils/winapi"
 )
 
 // DecryptDPAPI decrypts a DPAPI-protected blob using the current user's

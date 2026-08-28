@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"bwplus/log"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // utf8BOM is written at the start of CSV files for Excel compatibility.

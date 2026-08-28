@@ -3,9 +3,9 @@ package safari
 import (
 	"path/filepath"
 
-	"bwplus/filemanager"
-	"bwplus/log"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/filemanager"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // profile is one Safari profile 鈥?the leaf extraction unit. Passwords come from

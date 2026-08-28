@@ -1,8 +1,8 @@
 package chromium
 
 import (
-	"bwplus/masterkey"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // sourcePath describes a single candidate location for browser data,

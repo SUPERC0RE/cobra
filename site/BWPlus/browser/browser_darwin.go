@@ -9,9 +9,9 @@ import (
 	"github.com/moond4rk/keychainbreaker"
 	"golang.org/x/term"
 
-	"bwplus/log"
-	"bwplus/masterkey"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func platformBrowsers() []types.BrowserConfig {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func TestArchiveSources_ForwardSlashLayout(t *testing.T) {

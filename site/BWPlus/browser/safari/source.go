@@ -3,7 +3,7 @@ package safari
 import (
 	"path/filepath"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 type sourcePath struct {

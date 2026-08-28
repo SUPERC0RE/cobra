@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"bwplus/filemanager"
-	"bwplus/log"
-	"bwplus/masterkey"
-	"bwplus/types"
-	"bwplus/utils/fileutil"
+	"github.com/spf13/cobra/site/BWPlus/filemanager"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/spf13/cobra/site/BWPlus/utils/fileutil"
 )
 
 // Browser is one Chromium installation: a single UserDataDir holding profiles

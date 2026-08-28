@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"bwplus/utils/winapi"
+	"github.com/spf13/cobra/site/BWPlus/utils/winapi"
 )
 
 // copyLocked copies a file that is locked by another process (e.g., Chrome's

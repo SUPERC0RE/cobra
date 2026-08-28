@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"errors"
 
-	"bwplus/crypto"
-	"bwplus/log"
-	"bwplus/masterkey"
-	"bwplus/types"
-	"bwplus/utils/sqliteutil"
+	"github.com/spf13/cobra/site/BWPlus/crypto"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/spf13/cobra/site/BWPlus/utils/sqliteutil"
 )
 
 const (

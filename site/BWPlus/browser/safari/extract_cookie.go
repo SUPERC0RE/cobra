@@ -7,7 +7,7 @@ import (
 
 	"github.com/moond4rk/binarycookies"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func extractCookies(path string) ([]types.CookieEntry, error) {

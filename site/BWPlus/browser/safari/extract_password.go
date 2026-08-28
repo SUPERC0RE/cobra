@@ -7,8 +7,8 @@ import (
 
 	"github.com/moond4rk/keychainbreaker"
 
-	"bwplus/log"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func extractPasswords(keychainPassword string) ([]types.LoginEntry, error) {

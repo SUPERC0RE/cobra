@@ -10,7 +10,7 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"bwplus/log"
+	"github.com/spf13/cobra/site/BWPlus/log"
 )
 
 // profileContext tracks the uppercase (Safari/Profiles/<UUID>) and lowercase

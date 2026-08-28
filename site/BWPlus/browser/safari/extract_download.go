@@ -6,7 +6,7 @@ import (
 
 	"github.com/moond4rk/plist"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 type safariDownloads struct {

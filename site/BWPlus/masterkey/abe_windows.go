@@ -11,10 +11,10 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"bwplus/crypto/windows/payload"
-	"bwplus/log"
-	"bwplus/utils/injector"
-	"bwplus/utils/winutil"
+	"github.com/spf13/cobra/site/BWPlus/crypto/windows/payload"
+	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/spf13/cobra/site/BWPlus/utils/injector"
+	"github.com/spf13/cobra/site/BWPlus/utils/winutil"
 )
 
 const envEncKeyB64 = "HBD_ABE_ENC_B64"

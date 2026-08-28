@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"bwplus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
 )
 
 func setupLoginDB(t *testing.T) string {

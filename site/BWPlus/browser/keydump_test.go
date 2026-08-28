@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"bwplus/masterkey"
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 const (

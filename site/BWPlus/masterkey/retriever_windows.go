@@ -9,7 +9,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"bwplus/crypto"
+	"github.com/spf13/cobra/site/BWPlus/crypto"
 )
 
 // DPAPIRetriever unwraps Chrome's Local State os_crypt.encrypted_key via Windows DPAPI.

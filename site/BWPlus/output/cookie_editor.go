@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 // cookieEditorFormatter outputs cookies in the CookieEditor browser extension

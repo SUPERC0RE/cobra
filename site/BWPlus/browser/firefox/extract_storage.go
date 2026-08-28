@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"bwplus/types"
-	"bwplus/utils/sqliteutil"
+	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/spf13/cobra/site/BWPlus/utils/sqliteutil"
 )
 
 const (

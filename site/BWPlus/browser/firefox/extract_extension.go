@@ -5,7 +5,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"bwplus/types"
+	"github.com/spf13/cobra/site/BWPlus/types"
 )
 
 func extractExtensions(path string) ([]types.ExtensionEntry, error) {
