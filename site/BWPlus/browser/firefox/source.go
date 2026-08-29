@@ -3,7 +3,7 @@ package firefox
 import (
 	"path/filepath"
 
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 // sourcePath describes a single candidate location for browser data,

@@ -6,7 +6,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 func extractBookmarks(path string) ([]types.BookmarkEntry, error) {

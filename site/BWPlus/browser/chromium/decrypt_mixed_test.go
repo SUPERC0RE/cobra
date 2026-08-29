@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
 )
 
 // TestDecryptValue_MixedTier is the regression test for mixed-cipher profiles (issue #578 on

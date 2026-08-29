@@ -5,7 +5,7 @@ package injector
 import (
 	"fmt"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
 )
 
 // abeErrNames maps the payload's ABE_ERR_* category byte (written into

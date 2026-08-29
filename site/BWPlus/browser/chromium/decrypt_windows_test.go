@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
 )
 
 // encryptWithDPAPI encrypts data using Windows DPAPI (CryptProtectData).

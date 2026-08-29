@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/spf13/cobra/site/BWPlus/browser/chromium"
-	"github.com/spf13/cobra/site/BWPlus/filemanager"
-	"github.com/spf13/cobra/site/BWPlus/log"
-	"github.com/spf13/cobra/site/BWPlus/types"
-	"github.com/spf13/cobra/site/BWPlus/utils/fileutil"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/browser/chromium"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/filemanager"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/utils/fileutil"
 )
 
 // Archivable is implemented by installations that can enumerate their decryption-relevant files for

@@ -3,8 +3,8 @@ package chromium
 import (
 	"fmt"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
 )
 
 // decryptValue decrypts a Chromium-encrypted value by dispatching on the ciphertext's version

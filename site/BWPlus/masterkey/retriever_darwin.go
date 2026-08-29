@@ -15,7 +15,7 @@ import (
 
 	"github.com/moond4rk/keychainbreaker"
 
-	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
 )
 
 // https://source.chromium.org/chromium/chromium/src/+/master:components/os_crypt/os_crypt_mac.mm;l=157

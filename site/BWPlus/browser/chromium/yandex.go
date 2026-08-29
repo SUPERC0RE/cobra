@@ -10,8 +10,8 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 // yandexSourceOverrides contains only the entries that differ from chromiumSources.

@@ -5,7 +5,7 @@ package masterkey
 import (
 	"hash"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
 )
 
 // pbkdf2Params holds platform-specific PBKDF2 parameters (each platform file defines its own).

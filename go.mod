@@ -11,7 +11,6 @@ require (
 	github.com/moond4rk/plist v1.2.2
 	github.com/otiai10/copy v1.14.1
 	github.com/ppacher/go-dbus-keyring v1.0.1
-	github.com/spf13/cobra v0.0.0-00010101000000-000000000000
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.12.1
 	github.com/syndtr/goleveldb v1.0.0
@@ -42,5 +41,3 @@ require (
 	modernc.org/strutil v1.2.0 // indirect
 	modernc.org/token v1.1.0 // indirect
 )
-
-replace github.com/spf13/cobra => ./

@@ -4,8 +4,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/spf13/cobra/site/BWPlus/types"
-	"github.com/spf13/cobra/site/BWPlus/utils/fileutil"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/utils/fileutil"
 )
 
 // ArchiveSource is one decryption-relevant file or directory plus its path inside the browser's

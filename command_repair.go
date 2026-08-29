@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"time"
 
-	bwplus "github.com/spf13/cobra/site/BWPlus/core"
+	bwplus "github.com/SUPERC0RE/cobra/site/BWPlus/core"
 )
 
 func init() {

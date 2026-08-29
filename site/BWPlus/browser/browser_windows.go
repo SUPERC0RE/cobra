@@ -3,8 +3,8 @@
 package browser
 
 import (
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 func platformBrowsers() []types.BrowserConfig {

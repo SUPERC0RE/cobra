@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
 )
 
 // errStorageNotFound: the browser's account is absent from the credential store (keychain/keyring).

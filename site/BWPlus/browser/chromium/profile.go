@@ -3,10 +3,10 @@ package chromium
 import (
 	"path/filepath"
 
-	"github.com/spf13/cobra/site/BWPlus/filemanager"
-	"github.com/spf13/cobra/site/BWPlus/log"
-	"github.com/spf13/cobra/site/BWPlus/masterkey"
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/filemanager"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/masterkey"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 // profile is one Chromium profile under an installation 鈥?the leaf extraction

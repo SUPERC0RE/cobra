@@ -11,8 +11,8 @@ import (
 	"github.com/tidwall/gjson"
 	_ "modernc.org/sqlite"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto"
-	"github.com/spf13/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
 )
 
 // key4DB holds the parsed contents of Firefox's key4.db NSS key storage.

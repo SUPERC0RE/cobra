@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/spf13/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
 )
 
 // Browser is one Safari installation, holding the default profile and any named

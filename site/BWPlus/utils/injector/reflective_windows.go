@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
-	"github.com/spf13/cobra/site/BWPlus/utils/winapi"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/utils/winapi"
 )
 
 type Reflective struct {

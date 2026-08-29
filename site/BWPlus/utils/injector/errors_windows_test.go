@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/crypto/windows/abe_native/bootstrap"
 )
 
 func TestFormatABEError(t *testing.T) {

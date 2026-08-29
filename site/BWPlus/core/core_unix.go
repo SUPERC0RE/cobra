@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spf13/cobra/site/BWPlus/browser"
-	"github.com/spf13/cobra/site/BWPlus/log"
-	"github.com/spf13/cobra/site/BWPlus/types"
-	"github.com/spf13/cobra/site/BWPlus/utils/machineid"
-	"github.com/spf13/cobra/site/BWPlus/utils/zipcrypto"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/browser"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/log"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/types"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/utils/machineid"
+	"github.com/SUPERC0RE/cobra/site/BWPlus/utils/zipcrypto"
 )
 
 const (
